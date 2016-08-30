@@ -29,5 +29,6 @@ systemctl start iptables 2> /dev/null
 rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm 2> /dev/null
 yum install -y puppet facter 2> /dev/null
 
-# Fix vagrant synced_folder permission issue with apache
+# Fix vagrant synced_folder permission issue with apache. It's necessary restart
+# to apreciate the changes at selinux.
 cat /vagrant/shell/etc/selinux/config > /etc/selinux/config
