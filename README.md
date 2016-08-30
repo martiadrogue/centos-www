@@ -1,6 +1,6 @@
 # Centos WWW
 
-Super fast a PHP Development box, the config is located in
+Super fast PHP Development box, the config is located in
 [martiadrogue/puppet-master][repository-master].
 
 CentOS 7 is setup to develop PHP applications with Apache and MySQL. Vagrant
