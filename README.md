@@ -11,7 +11,7 @@ provision with needed configuration to talk with puppet master.
 -   Install vagrant using the [installation instructions][vagrant-installation]
 -   Clone this repository and run `vagrant up`
 -   Reboot the system if it's the first run `vagrant reload`
--   Put your php files inside the *www/* folder `git submodule add https://github.com/vendor/package`
+-   Put your php files inside the *www/* folder [know more][add-submodules]
 -   Change remote's URL `git remote set-url origin https://github.com/vendor/environment`
 -   Access `vagrant ssh` and enjoy!
 
@@ -26,3 +26,4 @@ To change machine's name edit *Vagrantfile*, *shell/hosts* and *shell/network*.
 
 [vagrant-installation]: https://www.vagrantup.com/docs/installation/
 [repository-master]: https://github.com/martiadrogue/puppet-master
+[add-submodules]: www/README.md
